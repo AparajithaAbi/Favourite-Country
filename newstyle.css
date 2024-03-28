@@ -1,0 +1,404 @@
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+header {
+  height: 100vh;
+  background-image: url('thailand.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.logo {
+  font-size: 50px;
+  padding-top: 25px;
+  padding-left: 25px;
+  font-family: 'Sacramento', cursive;
+}
+
+nav {
+  margin-right: 25px;
+  font-size: 15px;
+  float: right;
+  margin-top: -65px;
+
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  padding-right: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+
+}
+
+.topic {
+  text-align: center;
+  font-size: 200px;
+  font-weight: 300;
+  font-family: 'Sacramento', cursive;
+  margin-top: 190px;
+}
+
+.topic-cap {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -70px;
+  word-spacing: 3px;
+
+}
+
+.topic-a {
+  width: 240px;
+  margin: 40px auto;
+
+
+}
+
+.topic-aa {
+  text-decoration: none;
+  padding: 15px 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 20px;
+  border-radius: 40px;
+  font-family: 'Montserrat', sans-serif;
+  word-spacing: 3px;
+  border: 2px solid white;
+  font-weight: 200;
+  transition: 0.3s;
+
+}
+
+.action {
+  border: 2px solid white;
+  border-radius: 35px;
+  padding: 15px;
+  word-spacing: 3px;
+  transition: 0.3s;
+}
+
+.vac-t {
+  color: black;
+  background-color: burlywood;
+  height: 350px;
+}
+
+.vac-t h2 {
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  font-size: 70px;
+  word-spacing: 10px;
+  font-weight: 300;
+  padding: 30px;
+}
+
+.vac-t p {
+  font-family: 'Montserrat', sans-serif;
+  word-spacing: 3px;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  width: 900px;
+
+}
+
+.vac-t h4 {
+  font-family: 'Montserrat', sans-serif;
+  word-spacing: 3px;
+  font-size: 16px;
+  text-align: center;
+  padding: 30px;
+
+}
+
+.total-content h1 {
+
+  text-align: center;
+  color: black;
+  padding-top: 40px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding-bottom: 10px;
+
+}
+
+.total-content h4 {
+  color: black;
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+  word-spacing: 10px;
+  font-weight: 100;
+  text-align: center;
+  padding-bottom: 40px;
+
+
+}
+
+.card {
+  width: 350px;
+  height: 570px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  color: black;
+  box-shadow: 8px 16px 25px rgba(0, 0, 0, 0.4);
+
+}
+
+.card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 349px;
+  height: 230px;
+  object-fit: cover;
+  text-align: center;
+
+}
+
+img {
+  transition: 0.5s;
+}
+
+.card .span {
+  margin: 10px;
+
+}
+
+span {
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 8px;
+}
+
+.card h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 37px;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+.card .sec-cap {
+  font-size: 17px;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+.card p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  width: 350px;
+  padding: 10px;
+  word-spacing: 2px;
+}
+
+.card4 {
+  display: flex;
+  justify-content: center;
+}
+
+.lake {
+  margin-left: 50px;
+}
+
+.canyon {
+  margin-left: 50px;
+}
+
+.beach {
+  margin-left: 50px;
+}
+
+.sec {
+  width: 1300px;
+  display: flex;
+  margin: auto;
+  /* border: 1px solid rgba(0, 0,0,0.3); */
+  height: 400px;
+  margin-bottom: 80px;
+  border-radius: 20px;
+}
+
+.img img {
+  width: 650px;
+  height: 400px;
+
+}
+
+.sec-con {
+  width: 650px;
+  ;
+  color: black;
+  text-align: center;
+  height: 400px;
+  ;
+}
+
+.sec-con h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+  padding: 15px;
+
+
+}
+
+.sec-con p {
+  width: 500px;
+  ;
+  margin: auto;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sec-con .cap {
+  font-size: 22px;
+  padding-bottom: 20px;
+
+}
+
+.sec-con .link {
+  margin-top: 40px;
+
+
+}
+
+.sec-con a {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  padding: 15px;
+  border-radius: 40px;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+.explore h2 {
+  font-family: 'Sacramento', cursive;
+  color: black;
+  font-size: 60px;
+  word-spacing: 5px;
+  text-align: center;
+  font-weight: 200;
+  margin: 0%;
+  margin-bottom: 45px;
+}
+
+.explore h4 {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  padding: 0%;
+  padding-top: 45px;
+
+}
+
+/* .left img{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.right img{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    
+} */
+footer {
+
+  background-color: burlywood;
+}
+
+footer>h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding-top: 40px;
+}
+
+footer>p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  width: 900px;
+  margin: auto;
+  padding: 25px;
+  padding-bottom: 60px;
+}
+
+.footer {
+
+  background-color: black;
+  padding-bottom: 50px;
+}
+
+footer>div>p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: 25px;
+  font-weight: 500;
+}
+
+.bot-nav>a {
+  text-decoration: none;
+  color: white;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 15px;
+  border-right: 2px solid white;
+
+}
+
+.bot-nav {
+  text-align: center
+}
+
+#lastlink {
+  border-right: 0px;
+}
+
+.topic-a:hover .topic-aa {
+  color: black;
+  background-color: white;
+}
+
+.action:hover {
+  background-color: white;
+  color: black;
+}
+
+.link:hover a {
+
+  background-color: black;
+  color: white;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
